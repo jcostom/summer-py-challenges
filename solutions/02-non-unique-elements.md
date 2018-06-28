@@ -1,3 +1,9 @@
+So, how does this solution work?
+
+1. First, we create a list to hold our set of items that have duplicates in the original list.
+2. Next, we run through that list, 1 item at a time. Using the `count()` function, we find out if there's more than 1 of that item in the list If there is, we add the item to the list of duplicates.
+3. We return the list of duplicates.
+
 ```python
 def checkio(data):
     duplist = []
