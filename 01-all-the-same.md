@@ -20,7 +20,8 @@ if __name__ == '__main__':
     assert all_the_same([]) == True
     assert all_the_same([1]) == True
     print("No assertion errors? You did it!")
-    ```
+
+```
 
 ## Hint...
 
